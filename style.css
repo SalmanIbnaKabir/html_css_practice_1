@@ -1,0 +1,272 @@
+* {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 5px;
+  color: white;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+
+}
+
+.menu-items li {
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.menu-items li:hover {
+  background-color: rgb(37, 30, 17);
+  color: aqua;
+  cursor: pointer;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.banner-description {
+  margin-left: 50px;
+}
+
+.banner-text {
+  color: red;
+  font-size: 24px;
+}
+
+.banner-description h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.text {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.banner-btn {
+  padding: 15px 30px;
+  background-color: red;
+  margin: 10px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.section-two {
+  margin-top: 70px;
+  padding: 50px;
+}
+
+.title2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.card-descriptio img {
+  width: 50px;
+
+}
+
+.card1 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: 8px 8px 16px gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  transition: .8s;
+}
+
+.card1:hover {
+  margin-top: -20px;
+  transition: .5s;
+
+}
+
+.card1 a {
+
+  color: black;
+  text-decoration: none;
+
+}
+.about-section{
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  
+  color: white;
+  padding: 20px;
+}
+
+.about-left {
+  width: 700px;
+  border-top: 1px solid red;
+  border-width: 80%;
+
+}
+
+.about-right {
+  width: 700px;
+  border-top: 1px solid gray;
+  border-width: 80%;
+
+}
+.about-description h1{
+  font-size: 2.7rem;
+  margin-bottom: 15px;
+}
+.about-description p {
+  font-size: 1.2rem;
+  color: rgb(155, 150, 150);
+  margin: 20px 0px ;
+}
+.about-description ul {
+  font-size: 1.1rem;
+  margin: 20px 0px;
+}
+.about-description ul li {
+  margin-bottom: 15px;
+}
+
+.workout-image {
+  display: flex;
+  margin-top: 50px;
+}
+
+.workout-image img {
+  width: 47%;
+  transform: skewY(-10deg);
+}
+
+.workout-container{
+  width: 600px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('./images/shape/Group_33094_1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.workout-title {
+  color: white;
+}
+.workout-button button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.services-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
+  
+}
+.service1{
+  width: 350px;
+  height: 460px;
+  box-shadow: 8px 8px 16px gray;
+  border-radius: 10px;
+  margin: 15px 0px;
+
+}
+.service-img img{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.service-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card-title{
+  color: red;
+  font-size: 1.2rem;
+  margin: 10px 0px;
+}
+.service-card-text{
+  margin: 10px 0px;
+}
+.service-card-owner{
+  margin: 10px 0px;
+  font-size: 1.1rem;
+  color: gray;
+}
+
+.service-card-description {
+  padding: 10px;
+}
+
+.service-footer p {
+  color: red;
+}
+.batch{
+  position: relative;
+}
+.batch img {
+  width: 50px;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+}
+
+footer {
+  height: 150px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 30px;
+}
+footer hr {
+  width: 80%;
+  margin: 0 auto;
+}
+footer span {
+  color: red;
+}
